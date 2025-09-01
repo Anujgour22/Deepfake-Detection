@@ -1,0 +1,21 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and videos
+data/
+videos/
+frames/
+
+# Ignore trained models
+*.h5
+*.keras
+*.pth
+*.pt
+
+# Logs
+wandb/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
